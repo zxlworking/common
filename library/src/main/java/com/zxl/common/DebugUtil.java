@@ -3,7 +3,7 @@ package com.zxl.common;
 import android.util.Log;
 
 /**
- * Created by uidq0955 on 2018/5/18.
+ * Created by zxl on 2018/5/18.
  */
 
 public class DebugUtil {
