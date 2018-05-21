@@ -40,14 +40,14 @@ dependencies {
 def siteUrl = 'https://github.com/zxlworking/common'
 //项目的git地址
 def gitUrl = 'https://github.com/zxlworking/common.git'
-//发布到JCenter上的项目名字
-def libName = "ZxlCommonLibrary"
+//发布到JCenter上的项目名字---对应的是工程名称
+def libName = "library"
 
 //发布到组织名称名字，必须填写
 group = "com.zxl.common"
 // 版本号，下次更新是只需要更改版本号即可
 version = "1.0.0"
-//上面配置后上传至JCenter后的编译路径是这样的： compile 'com.zxl.common:ZxlCommonLibrary:1.0.0'
+//上面配置后上传至JCenter后的编译路径是这样的： compile 'com.zxl.common:library:1.0.0'
 
 //生成源文件
 task sourcesJar(type: Jar) {
